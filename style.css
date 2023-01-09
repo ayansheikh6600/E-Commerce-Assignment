@@ -119,6 +119,7 @@ h2,a, .btn-lets{
     border-radius: 5px;
 }
 .biryani, .burger, .tikkah{
+    
     cursor: pointer;
 }
 .tikkah:hover,.burger:hover,.biryani:hover{
@@ -133,6 +134,7 @@ h2,a, .btn-lets{
     font-family: 'Courier New', Courier, monospace;
 }
 .Extra-item>li,.Rice>li,.Barbq>li, .Burger>li{
+    font-weight: bold;
     width: 60%;
    padding: 10px;
    margin-left: 100px; 
@@ -182,6 +184,8 @@ h2,a, .btn-lets{
     border-radius: 5px;
 }
 .q{
+    margin-top: 10px;
+    margin-bottom: 4px;
     text-align: center;
     width: 20%;
     height: 30px;
@@ -190,3 +194,27 @@ h2,a, .btn-lets{
     background-color: blue;
      
 }
+/* Grocery Page CSS */
+.grocery{
+    margin-top: 10px;
+}
+.grocery ins{
+    font-weight: bold;
+}
+.grocery>li{
+    width: 60%;
+   padding: 10px;
+   margin-left: 100px; 
+}
+.gr{
+    margin-top: 7px;
+    float: right;
+    margin-right: 70px;
+    background-image: url(./images/spoon.jpg);
+    width: 260px;
+    height: 290px;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
